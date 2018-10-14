@@ -89,30 +89,3 @@ class War {
     if (this.saxonArmy.length !== 0 && this.vikingArmy.length !== 0) return "Vikings and Saxons are still in the thick of battle.";
   };
 }
-
-
-// var viking, saxon, war;
-
-// function generateViking() {
-//   var name = "Harald";
-//   var strength = 150;
-//   var health = 300;
-
-//   return new Viking(name, health, strength);
-// }
-
-// function generateSaxon() {
-//   var health = 60;
-//   var strength = 25;
-
-//   return new Saxon(health, strength);
-// }
-
-
-// viking = generateViking();
-// saxon = generateSaxon();
-// war = new War([viking], [saxon]);
-// war.addViking(viking)
-// war.addSaxon(saxon)
-
-// console.log(war.vikingAttack())
